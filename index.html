@@ -1,62 +1,62 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-<!--         
-        <h1 id="title">Welcome</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="container">
 
-        <button id="btn">Change Color</button> -->
+    <h1>🎓 Student Dashboard</h1>
 
+    <button id="themeBtn">🌙 Dark Mode</button>
 
+    <div class="stats">
+        <h2>Total Students:
+            <span id="totalStudents">0</span>
+        </h2>
+    </div>
 
+    <div class="form">
 
-<!--         
-        <input type="text" id="username">
-  <button id="btn">Show</button>
-      <p id="output"></p>
-  -->
+        <input
+            type="text"
+            id="nameInput"
+            placeholder="Enter Student Name"
+        >
 
-<!-- 
-  <p id="message">Hello World</p>
-<button>Toggle</button>
-     -->
+        <p id="charCount">Characters : 0</p>
 
+        <input
+            type="text"
+            id="courseInput"
+            placeholder="Enter Course"
+        >
 
-     <!-- <ul id="list">
-<li>Apple</li>
-</ul>
-<input type="text" id="fruit">
-<button>Add Fruit</button> -->
+        <button id="addBtn">
+            Add Student
+        </button>
 
-<!-- 
-<div class="card">
-<h2>JavaScript</h2>
-<button>Delete</button>
+    </div>
+
+    <hr>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Student..."
+    >
+
+    <div id="students">
+
+    </div>
+
 </div>
- -->
 
-    <!-- <h1>0</h1>
-<button id="plus">+</button>
-<button id="minus">-</button> -->
+<script src="script.js"></script>
 
-<!-- <textarea></textarea>
-<p class="char">Characters: 0</p> -->
-
-
-<!-- 
-<button id="btn">Modes</button> -->
-
-
-<input placeholder="Name">
-<input placeholder="Course">
-<button>Add Student</button>
-<div id="students"></div>
-
-        <script src="script.js"></script>
-    </body>
-    </html>
+</body>
+</html>
