@@ -95,3 +95,21 @@ button:hover {
 .deleteBtn:hover {
     background: red;
 }
+
+body.dark-theme{
+    background:#121212;
+    color:white;
+}
+
+body.dark-theme .container{
+    background:#222;
+}
+
+body.dark-theme .student-card{
+    background:#333;
+}
+
+body.dark-theme input{
+    background:#444;
+    color:white;
+}
